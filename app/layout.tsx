@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	title: "Instagram Clone",
 	description: "Instagram Clone created with Next.js",
+	icons: {
+		icon: "/favicon.ico",
+	},
 };
 
 export default function RootLayout({
