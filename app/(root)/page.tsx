@@ -1,7 +1,12 @@
+import Image from "next/image";
 import React from "react";
 
 const HomeComponent = () => {
-	return <div>This is my home page!</div>;
+	return (
+		<main>
+			* user feed
+		</main>
+	);
 };
 
 export default HomeComponent;
